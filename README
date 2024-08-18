@@ -1,0 +1,70 @@
+
+# Task List Application
+
+## Overview
+
+The Task List Application is a simple to-do list manager that allows users to add and delete tasks. Built using HTML, CSS, and JavaScript, this application demonstrates basic web development concepts, including form handling, dynamic content updates, and event handling.
+
+## Features
+
+- **Add Tasks**: Users can enter a new task into the input field and submit it to be added to the list.
+- **Delete Tasks**: Each task in the list has a delete button that allows users to remove it from the list.
+- **Dynamic Updates**: The task list is updated dynamically without page reloads.
+
+## Files
+
+- `index.html`: The main HTML file that defines the structure of the application.
+- `main.css`: The CSS file that contains the styling for the application.
+- `tasks.js`: The JavaScript file that contains the logic for adding and deleting tasks.
+
+## Installation
+
+1. Clone the repository or download the files.
+2. Open the `index.html` file in your web browser to view and interact with the application.
+
+## Usage
+
+1. **Add a Task**:
+   - Enter a task description in the input field.
+   - Click the "Add Task" button or press Enter to add the task to the list.
+
+2. **Delete a Task**:
+   - Click the trash icon next to the task you want to remove.
+
+## Code Overview
+
+### HTML
+
+The HTML file includes:
+- A form with an input field and a submit button for adding tasks.
+- An unordered list (`<ul>`) where tasks will be displayed.
+- Links to the CSS and JavaScript files.
+
+### CSS
+
+The CSS file (`main.css`) styles the task list and ensures a user-friendly interface.
+
+### JavaScript
+
+The JavaScript file (`tasks.js`) handles:
+- Querying and storing the submit button and task input field.
+- Enabling/disabling the submit button based on input.
+- Listening for form submission and input events.
+- Adding tasks to the list and attaching delete buttons to them.
+- Removing tasks when the delete button is clicked.
+- Preventing the default form submission behavior to avoid page reloads.
+
+## Example
+
+Here's a brief example of how the application looks:
+
+![Task List Example](https://example.com/screenshot.png)
+
+## Contributing
+
+If you'd like to contribute to this project, please fork the repository and create a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License.
+
