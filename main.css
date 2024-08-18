@@ -1,0 +1,107 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    min-height: 100vh;
+    padding-top: 3%;
+    background-image: linear-gradient(100deg, #575656, #062e3f);
+    color: #ffdfdb;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #181a1a;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    color: #ffdfdb;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: #181a1a;
+    color: rgb(247, 226, 223);
+}
+
+input[type="submit"] {
+    padding: 10px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: rgb(247, 226, 223);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+input[type="submit"]:disabled {
+    background-color: #ddd;
+    color: #aaa;
+    cursor: not-allowed;
+}
+.delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+}
+/* Basic styling for the task list and buttons */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-left: auto;
+    color: #dc3545; /* Bootstrap red color for the trash icon */
+}
+
+button:hover {
+    color: #c82333; /* Darker red for hover effect */
+}
+
+.bi-trash {
+    font-size: 1.2em;
+}
+
