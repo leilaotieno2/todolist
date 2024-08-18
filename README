@@ -54,15 +54,7 @@ The JavaScript file (`tasks.js`) handles:
 - Removing tasks when the delete button is clicked.
 - Preventing the default form submission behavior to avoid page reloads.
 
-## Example
 
-Here's a brief example of how the application looks:
-
-![Task List Example](https://example.com/screenshot.png)
-
-## Contributing
-
-If you'd like to contribute to this project, please fork the repository and create a pull request with your changes.
 
 ## License
 
